@@ -4,7 +4,6 @@ import CardIncome from "../ui/dashboard/card/cardIncome";
 import Chart from "../ui/dashboard/chart/chart";
 import styles from "../ui/dashboard/dashboard.module.css";
 import Rightbar from "../ui/dashboard/rightbar/rightbar";
-// import Transactions from "../ui/dashboard/transactions/transactions";
 
 const Home = () => {
   return (

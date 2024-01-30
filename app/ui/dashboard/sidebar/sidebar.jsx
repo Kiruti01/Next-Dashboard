@@ -16,6 +16,7 @@ import {
   MdLogout,
   MdHomeFilled,
 } from "react-icons/md";
+
 import { auth, signOut } from "@/app/auth";
 
 const menuItems = [
