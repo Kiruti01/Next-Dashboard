@@ -6,7 +6,7 @@ import Navbar from "../ui/dashboard/navbar/navbar";
 import Sidebar from "../ui/dashboard/sidebar/sidebar";
 import Transactions from "../ui/dashboard/transactions/transactions";
 
-const Home = ({ children }) => {
+const Layout = ({ children }) => {
   return (
     <div className={styles.container}>
       <div className={styles.menu}>
@@ -20,4 +20,4 @@ const Home = ({ children }) => {
   );
 };
 
-export default Home;
+export default Layout;
