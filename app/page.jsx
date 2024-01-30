@@ -1,10 +1,10 @@
-import Dashboard from "./dashboard/page";
+import Home from "./home/page";
 
 // TODO
 const Homepage = () => {
   return (
     <div>
-      <Dashboard />
+      <Home />
     </div>
   );
 };
