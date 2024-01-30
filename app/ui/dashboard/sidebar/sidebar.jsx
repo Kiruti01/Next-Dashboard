@@ -90,7 +90,7 @@ const Sidebar = async () => {
   const { user } = await auth();
   return (
     <div className={styles.container}>
-      <Link href="/home">
+      <Link href="/">
         <div className={styles.user}>
           <Image
             className={styles.userImage}
