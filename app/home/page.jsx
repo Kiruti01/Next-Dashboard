@@ -15,6 +15,10 @@ const Home = () => {
         </div>
 
         <Chart />
+        <div className={styles.cards}>
+          <CardIncome />
+          <CardExpense />
+        </div>
       </div>
       <div className={styles.side}>
         <Rightbar />
